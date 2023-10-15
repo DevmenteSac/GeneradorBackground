@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="favicon.jpg" type="image/x-icon">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.min.js"></script>
+    <title>Background creator</title>
+</head>
+
+<body>
+    <div id="grad">
+
+    </div>
+    <div class="ajustes">
+
+        <div class="titulo">
+            <h2>Ajustes</h2>
+        </div>
+
+        <div class="form">
+            <form action="">
+                <!-- <label for="">¿Cuantos Rayos?</label>
+                <select name="" id="">
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                </select> -->
+                <div>
+                    <label for="">Color Rayo 1</label>
+                    <input type="color" id="color1" value="#ffffff">
+                </div>
+                <div>
+                    <label for="">Color Rayo 2</label>
+                    <input type="color" id="color2">
+                </div>
+                <div>
+                    <label for="">Posicion X</label>
+                    <input type="range" id="posicionX" min="0" max="100" value="50">
+                </div>
+                <div>
+                    <label for="">Posicion Y</label>
+                    <input type="range" id="posicionY" min="0" max="100" value="50">
+                </div>
+                <div>
+                    <input type="button" value="descargar" id="descargar">
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

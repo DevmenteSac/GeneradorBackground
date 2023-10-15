@@ -1,0 +1,38 @@
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0; /* Color de fondo */
+}
+
+#grad {
+    height: 576px;
+    width: 1024px;
+    background-image: repeating-conic-gradient(at 50% 50%, white 0deg 10deg, black 10deg 20deg);
+
+}
+
+.ajustes {
+    /* background: green;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    margin: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px;
+}
+
+.titulo {
+    font-size: large;
+}
+
+form div {
+    margin-bottom: 20px;
+}
